@@ -1,4 +1,9 @@
-# hello-world
-tutorial walk through
+## random-code is My random-code library written in various programming languages.
 
-basically right now i'm walking through the git tutorial, and i'll either delete this repository or turn it into a scrap book of code later on.
+Copyright 2016 Gregory Kaiser
+
+My random-code library is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+My random-code library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License along with my random-code library.  If not, see <http://www.gnu.org/licenses/>.
