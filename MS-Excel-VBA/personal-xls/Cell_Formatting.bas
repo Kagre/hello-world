@@ -96,3 +96,13 @@ Private Function getLuma(r As Integer, G As Integer, B As Integer) As Double
     U = (Umax * (B - getLuma)) / (1 - Wb)
     V = (Vmax * (r - getLuma)) / (1 - Wr)
 End Function
+
+Sub ChartLineWidth()
+    Dim c As Chart, s As Series
+    For Each co In ActiveSheet.ChartObjects()
+        Set c = co.Chart
+        For Each s In c.SeriesCollection
+            s.Format.Line.Weight = 1
+        Next s
+    Next co
+End Sub
