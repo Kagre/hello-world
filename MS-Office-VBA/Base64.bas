@@ -1,5 +1,21 @@
 'Option Compare Database
 Option Explicit
+'Copyright 2016 Gregory Kaiser
+'
+'This file is part of my random-code libarary.
+'
+'My random-code library is free software: you can redistribute it and/or modify
+'it under the terms of the GNU Lesser General Public License as published by
+'the Free Software Foundation, either version 3 of the License, or
+'(at your option) any later version.
+'
+'My random-code library is distributed in the hope that it will be useful,
+'but WITHOUT ANY WARRANTY; without even the implied warranty of
+'MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+'GNU Lesser General Public License for more details.
+'
+'You should have received a copy of the GNU Lesser General Public License
+'along with my random-code library.  If not, see <http://www.gnu.org/licenses/>.
 
 Private Sub ToBase64_tst(): Debug.Print ToBase64("Man123"): End Sub
 Public Function ToBase64(ByVal str As String) As String
