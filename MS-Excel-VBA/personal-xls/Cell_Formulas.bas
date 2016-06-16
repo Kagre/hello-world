@@ -53,3 +53,13 @@ Public Function FindA(ByVal n As Long) As Long
     Next FindA
     If PowerMod(FindA, n - 1, n) <> 1 Then FindA = -1
 End Function
+
+'turn off the green cell warnings for numbers stored as text, and the like
+Public Sub IgnoreCellEvalErr()
+    Dim c As Range
+    On Error Resume Next
+    For Each c In Selection.Cells
+        c.Errors(xlEvaluateToError).Ignore = True
+    Next c
+    On Error GoTo 0
+End Sub
