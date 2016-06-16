@@ -1,5 +1,22 @@
 Option Private Module
 
+'Copyright 2016 Gregory Kaiser
+'
+'This file is part of my random-code libarary.
+'
+'My random-code library is free software: you can redistribute it and/or modify
+'it under the terms of the GNU Lesser General Public License as published by
+'the Free Software Foundation, either version 3 of the License, or
+'(at your option) any later version.
+'
+'My random-code library is distributed in the hope that it will be useful,
+'but WITHOUT ANY WARRANTY; without even the implied warranty of
+'MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+'GNU Lesser General Public License for more details.
+'
+'You should have received a copy of the GNU Lesser General Public License
+'along with my random-code library.  If not, see <http://www.gnu.org/licenses/>.
+
 Private Function Quote(ByVal S As String) As String: Quote = """" & S & """": End Function
 
 ' Lambda concept derived from: http://www4.ncsu.edu/~cjhazard/projects/spreadsheet_programming.html
